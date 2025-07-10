@@ -21,6 +21,9 @@
 
 header{
     background-image: url('../Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .nav-bar{
     display: flex;
@@ -39,7 +42,7 @@ header{
 
 /* Shared Style */
 
-.sign-up{
+.btn-primery{
     font-size: 16px;
     font-weight: bold;
     color: #FFFFFF;
@@ -60,4 +63,29 @@ header{
     font-size: 65px;
     color: #252432;
     margin-bottom: 37px;
+}
+
+/* Action Section Style */
+
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    margin: 116px 159px 116px 141px;
+    align-items: center;
+}
+
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 23px;
+}
+.action-description{
+    font-size: 24px;
+    color: #25243279;
+    margin-bottom: 23px;
+}
+.action-section img{
+    border-radius: 48px;
 }
