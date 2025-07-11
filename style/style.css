@@ -56,8 +56,8 @@ header{
     cursor: pointer;
 }
 .btn-primery:hover{
-    background-color:lightslategray;
-    transform: scale(1.03);
+    /* background-color:lightslategray;
+    transform: scale(1.03); */
 }
 
 /* Hero section style */
@@ -187,8 +187,34 @@ header{
     padding: 2px;
 }
 
+/*ready to focus section style*/
 
-/* Let’s Get In Touch Section */
+.ready-to-focus{
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 1140px;
+    margin: 100px auto;
+    padding: 71px 150px;
+}
+.ready-to-focus h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.ready-to-focus p{
+    font-size: 16px;
+    color: #252432cf;
+    margin-bottom: 20px;
+}
+.ready-to-focus img{
+    margin-top: 20px;
+    border-radius: 48px;
+}
+
+
+/* Let’s Get In Touch Section style */
 
 .get-in-touch-section{
     display: flex;
@@ -214,9 +240,9 @@ header{
 .input-container label{
     font-size: 18px;
     font-weight: 500px;
-    color: #000000;
+    color:#000000;
 }
-.input-container input[type="text"], input[type="email"], textarea, button{
+.input-container input[type="text"], input[type="email"], textarea{
     
     padding: 20px 32px;
     border-radius: 10px;
@@ -227,8 +253,16 @@ header{
     /* background-color: rgba(245, 245, 245, 0.774); */
     background-color: #FFFFFF;
 }
+.input-container button{
+    padding: 20px 32px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+}
 .input-container ::placeholder{
     font-size: 20px;
+    color: #00000074;
 }
 
 /* footer Style */
