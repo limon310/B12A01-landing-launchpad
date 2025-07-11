@@ -52,15 +52,17 @@ header{
     background-color: rgba(78, 71, 255, 1);
     padding: 12px 36px;
     border-radius: 10px;
+    transition: all 0.5s;
     border: none;
     cursor: pointer;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);;
 }
 .btn-primery:hover{
-    /* background-color:lightslategray;
-    transform: scale(1.03); */
+    background-image: linear-gradient(90deg, #00C0FF 0%, #ffd000a9 49%, #53c32ad6 80%, #00C0FF 100%);
+   animation:slidebg 5s linear infinite
 }
 
-/* Hero section style */
+/* Hero style */
 
 .hero{
     text-align: center;
@@ -73,7 +75,7 @@ header{
     margin-bottom: 37px;
 }
 
-/* Action Section Style */
+/* Action section Style */
 
 .action-section{
     display: flex;
@@ -98,7 +100,7 @@ header{
     border-radius: 40px;
 }
 
-/* Productivity Section Style */
+/* Productivity section Style */
 
 .productivity-section{
     background-color: rgba(78, 71, 255, 0.1);
@@ -120,7 +122,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* justify-content: space-around; */
     margin-bottom: 50px;
     gap: 158px;
 }
@@ -226,7 +227,7 @@ header{
 }
 
 .get-in-touch-title{
-    font-size: 90px;
+    font-size: 55px;
     font-weight: bold;
     color: #000000;
     padding: 200px 0;
@@ -269,7 +270,6 @@ header{
 
 .footer{
     text-align: center;
-    /* background-color: #8987a111; */
     background-color: #FFFFFF;
     padding: 104px 400px;
 }
