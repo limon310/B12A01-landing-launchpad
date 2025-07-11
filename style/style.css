@@ -184,6 +184,11 @@ header{
     margin-top: 24px;;
     gap: 12px;
 }
+.avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
 .user-feedbk-form input{
     display: block;
     border: none;
