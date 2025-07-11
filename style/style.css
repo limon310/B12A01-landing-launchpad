@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    /* background: linear-gradient(#00aefe0b); */
+    /* background-color: #adbbda1b; */
+}
 
 .raleway-normal {
   font-family: "Raleway", sans-serif;
@@ -50,6 +54,11 @@ header{
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
+}
+.btn-primery:hover{
+    background-color:lightslategray;
+    transform: scale(1.03);
 }
 
 /* Hero section style */
@@ -126,3 +135,51 @@ header{
     color: #0000008f;
     padding-bottom: 50px;
 }
+.avatar{
+    display: flex;
+}
+
+
+/* Let’s Get In Touch Section */
+
+.get-in-touch-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 115px;
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.get-in-touch-title{
+    font-size: 90px;
+    font-weight: bold;
+    color: #000000;
+    padding: 200px 0;
+    width: 100%;
+}
+
+.input-container{
+    padding: 71px;
+    display: block;
+}
+.input-container label{
+    font-size: 18px;
+    font-weight: 500px;
+    color: #000000;
+}
+.input-container input[type="text"], input[type="email"], textarea, button{
+    
+    padding: 20px 32px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 19px;
+    border: none;
+    background-color: rgba(245, 245, 245, 0.774);
+}
+.input-container ::placeholder{
+    font-size: 20px;
+}
+
