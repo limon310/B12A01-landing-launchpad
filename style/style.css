@@ -59,8 +59,9 @@ header{
 }
 .btn-primery:hover{
     background-image: linear-gradient(90deg, #00C0FF 0%, #ffd000a9 49%, #53c32ad6 80%, #00C0FF 100%);
-   animation:slidebg 5s linear infinite
+    transform: scale(1.05);
 }
+
 
 /* Hero style */
 
